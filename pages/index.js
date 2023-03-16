@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import NavBar from './components/nav';
+import Header from './components/header';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
         <title>Covered</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header/>
       <h1 className={styles.tl}>Welcome to Covered!</h1>
       <h2 className={styles.tm}>We want to make it easy for you to have the perfect cover letter for every application</h2>
     </div>  )
